@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/*_____ global styling _____*/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+	--primary: #0081A7;
+  --primary-light:#EEF4F8;
+	--secondary: #FDFCDC;
+  --text: #5A5858;
+  --text-dark: #423B7D;
+  --white: #ffffff;
+}
+
+html, body {
+	width: 100vw;
+	min-height: 100vh;
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  overflow-x: hidden;
+}
+
+/*_____ half global styling _____*/
+h1{}
+h3{}
+p{}
+
+.i{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.c{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info{
+  width: 90%;
+  max-width: 600px;
+}
+
+/* .btns */
+.btns{
+  gap: 10px;
+  display: flex;
+}
+
+.btn{
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: .3rem;
+}
+
+.primary-btn{
+  color: var(--white);
+  background: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.secondary-btn{
+  color: var(--primary);
+  background: var(--white);
+  border: 1px solid var(--primary);
+}
+
+/*_____ hero _____*/
+.header{
+  position: relative;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  background: var(--primary-light);
+  box-shadow: 0 0 10px #a7acb380;
+}
+
+/*_____ hero _____*/
+.hero{
+  background: var(--primary-light);
+  padding-top: 2em;
+  gap: 1em;
+}
+
+/*_____ about _____*/
+.about{
+  margin: 3em auto;
+}
+
+/*_____ help _____*/
+.help{
+  background: var(--secondary);
+}
+
+/*_____ cards _____*/
+.card{}
+
+/*_____ footer _____*/
+.footer{
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  color: var(--white);
+  background: var(--primary);
+}
