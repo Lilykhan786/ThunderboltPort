@@ -28,8 +28,8 @@ html, body {
 
 /*_____ half global styling _____*/
 h1{
-  font-size: 2em;
-  color: var(--text-dark);
+  font-size: 2.5em;
+  color: var(--text);
 }
 
 h3{
@@ -55,6 +55,10 @@ p{
   gap: 1em;
 }
 
+span{
+  color: var(--primary);
+}
+
 .info{
   width: 90%;
   max-width: 600px;
@@ -63,7 +67,7 @@ p{
 /* .btns */
 .btns{
   font-size: 1.1em;
-  gap: 10px;
+  gap: .5em;
   display: flex;
 }
 
@@ -81,7 +85,7 @@ p{
 
 .secondary-btn{
   color: var(--primary);
-  background: var(--white);
+  background: transparent;
   border: 1px solid var(--primary);
 }
 
@@ -101,10 +105,14 @@ p{
   gap: 1em;
 }
 
+.hero h1{
+  color: var(--text-dark);
+}
+
 /*_____ about _____*/
 .about{
-  gap: 20px;
-  margin: 3em auto;
+  gap: 1em;
+  margin: 4em auto;
 }
 
 /*_____ help _____*/
@@ -116,6 +124,11 @@ p{
 .people{
   justify-content: center;
   align-items: center;
+  gap: 2em;
+}
+
+.people h1{
+  color: var(--primary);
 }
 
 /*_____ cards _____*/
@@ -125,7 +138,7 @@ p{
 .footer{
   width: 100%;
   padding: 1em;
-  margin-top: 2em;
+  margin-top: 10em;
   text-align: center;
   color: var(--white);
   background: var(--primary);
