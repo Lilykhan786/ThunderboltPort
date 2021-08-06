@@ -1,1 +1,3 @@
 # ThunderboltPort
+Hack project which we end up not completing.
+I'm achieving this repo... 
